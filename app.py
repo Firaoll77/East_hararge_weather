@@ -5,8 +5,8 @@ import joblib
 import json
 
 # Load model and scaler
-model = joblib.load('rf_multioutput_model.pkl')
-scaler = joblib.load('scaler.pkl')
+model = joblib.load('rf_multioutput_model(1).pkl')
+scaler = joblib.load('scaler(2).pkl')
 # Optionally, load the correct column order if dummies were used
 try:
     with open("feature_columns.json", "r") as f:
